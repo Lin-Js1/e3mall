@@ -32,6 +32,7 @@ public class SearchItemServiceImpl implements SearchItemService {
         try {
             //查询商品列表
             List<SearchItem> itemList = itemMapper.getItemList();
+            System.out.println("ok");
             //遍历商品列表
             for (SearchItem searchItem : itemList) {
                 //创建文档对象
