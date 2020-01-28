@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class TestSolrJ {
 
-    @Test
+  /*  @Test
     public void addDocument() throws Exception{
         //创建一个SolrServer对象，创建一个连接，参数solr服务的url
         SolrServer solrServer = new HttpSolrServer("http://192.168.25.129:8080/solr");
@@ -32,5 +32,5 @@ public class TestSolrJ {
         //提交
         solrServer.commit();
     }
-
+*/
 }

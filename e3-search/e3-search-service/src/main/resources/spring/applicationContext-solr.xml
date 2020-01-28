@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
     <bean id="httpSolrServer" class="org.apache.solr.client.solrj.impl.HttpSolrServer">
-        <constructor-arg index="0" value="http://192.168.25.129:8080/solr"/>
+        <constructor-arg index="0" value="http://192.168.25.129:8080/solr/collection1"/>
     </bean>
 
 </beans>
