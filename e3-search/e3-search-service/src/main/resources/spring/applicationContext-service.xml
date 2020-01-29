@@ -21,4 +21,5 @@
     <dubbo:protocol name="dubbo" port="20882" />
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="cn.e3mall.search.service.SearchItemService" ref="searchItemServiceImpl" timeout="600000"/>
+    <dubbo:service interface="cn.e3mall.search.service.SearchService" ref="searchServiceImpl" timeout="600000"/>
 </beans>
